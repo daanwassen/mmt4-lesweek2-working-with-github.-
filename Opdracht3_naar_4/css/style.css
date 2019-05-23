@@ -1,0 +1,166 @@
+/* CSS reset */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    padding: 3px 5px 4px;
+    color: #979797;
+    width: 190px;
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+/* CSS reset */
+
+main {
+    max-width: 984px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0, auto;
+}
+
+h2 {
+    font-size: 5em;
+    color: red;
+}
+
+.grijs {
+    margin-top: 10px;
+    background-color: lightgrey;
+}
+
+.topheader {
+    height: 50px;
+    background-color: red;
+}
+
+nav {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 15px;
+}
+
+li {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.frik {
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    float: left;
+}
+
+.frik.andel {
+    background-image:url("/img/broodje.jpg");
+    background-size:100%;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color:grey;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .frik {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .frik {
+        float: none;
+        position: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+span {
+    text-decoration: line-through;
+}
+
+.ui-accordion-header {
+    padding: 10px;
+}
+
+
+.ui-accordion-header-active {
+    border: solid 2px brown;  
+    color: brown;
+}
+
+
+.ui-accordion-header-collapsed {
+    color: orange;
+    border: solid 1px orange;
+    cursor: pointer;
+}
+
+#accordion div {
+margin-bottom: 1em;
+margin-top: 1em;
+
+
+}
